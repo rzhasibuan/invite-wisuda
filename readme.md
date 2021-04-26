@@ -6,6 +6,7 @@ git clone https://github.com/rzhasibuan/invite-wisuda.git
 cp invite-wisuda
 composer install 
 cp .env.example .env
+
 <!-- setting database pada .env -->
 DB_CONNECTION=mysql
 DB_HOST=mysql
@@ -33,5 +34,5 @@ nb : sebelum melakukan migration buat terlebih dahulu dbnya
 ## License 
 + Copyright © 2020 Reza Afri Suhangga Hasibuan.
 + invitationWisuda is open-sourced software licensed under the MIT license.
-+ Made with ❤️ by rzhasibuan.
++ Made with ❤️  by rzhasibuan.
 + invitationWisuda is open-sourced software licensed under the MIT license.
