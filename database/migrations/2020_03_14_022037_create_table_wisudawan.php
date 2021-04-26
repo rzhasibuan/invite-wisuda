@@ -21,6 +21,7 @@ class CreateTableWisudawan extends Migration
             $table->string('prodi',30);
             $table->string('barcode',17);
             $table->string('status',6);
+            $table->string('tahun');
             $table->timestamps();
         });
 

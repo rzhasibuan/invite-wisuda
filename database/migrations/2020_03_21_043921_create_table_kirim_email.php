@@ -14,9 +14,10 @@ class CreateTableKirimEmail extends Migration
     public function up()
     {
         Schema::create('table_kirim_email', function (Blueprint $table) {
-             $table->Increments('id');
+            $table->Increments('id');
             $table->string('penerima',50);
             $table->string('email_penerima',50);
+            $table->string('barcode',250);
 
             $table->timestamps();
         });

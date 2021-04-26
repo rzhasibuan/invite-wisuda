@@ -17,6 +17,7 @@ class CreateTableBukutam extends Migration
             $table->bigIncrements('id');
             $table->String('kehadiran',6);
             $table->bigInteger('id_mhs')->unsigned();
+            $table->enum('status',['sudah','belum']);
             $table->timestamps();
             $table->foreign("id_mhs")
             ->references('id')
